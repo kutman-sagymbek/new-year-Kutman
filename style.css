@@ -65,7 +65,7 @@ h1 {
 	font-size: 65px;
 	text-fill-color: transparent;
 	color: #D2B48C;
-	margin: 0;
+	margin-bottom: 50px;
 }
 
 .text {
@@ -114,12 +114,13 @@ h1 {
 	}
 
 	h1 {
-		font-size: 30px;
+		font-size: 50px;
 		font-family: 'Comforter Brush';
 		font-weight: 400;
+		margin: 0;
 	}
 	.text {
-		font-size: 27px;
+		font-size: 20px;
 		padding: 10px 40px 20px 40px;
 	}
 
@@ -137,18 +138,18 @@ h1 {
 
 	.circle {
 		top: 100px;
-		right: 20px;
-		left: 600px;
+		right: 35px;
+		left: 570px;
 		width: 80px;
 	}
 
 	.on-melody {
 		display: block;
 		font-weight: 200;
-		font-size: 20px;
-		top: 15px;
-		right: 35px;
-		left: 600px;
+		font-size: 17px;
+		top: 35px;
+		right: 25px;
+		left: 570px;
 	}
 
 	.top-right {
@@ -156,9 +157,9 @@ h1 {
 	}
 
 	.center {
-		left: 500px;
+		left: 470px;
 		width: 80%px;
-		bottom: -80px;
+		bottom: -120px;
 	}
 
 	.end-of-text {
@@ -169,7 +170,8 @@ h1 {
 	.megacom {
 		margin-top: 40px;
 		margin-bottom: -200px;
-		width: 200px;
+		width: 130px;
+		/*height: 70px;*/
 	}
 }
 
