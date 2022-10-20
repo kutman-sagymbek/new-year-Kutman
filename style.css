@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Inspiration&family=Oswald:wght@200;300;400;500&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Inspiration&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Oswald:wght@200;300;400;500&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Inspiration&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Oswald:wght@200;300;400;500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Comforter&family=Comforter+Brush&display=swap');
 
 *{
 	margin: 0;
@@ -59,7 +60,8 @@ body {
 
 
 h1 {
-	font-family: 'Comforter Brush';
+	/*font-family: 'Comforter', cursive;*/
+	font-family: 'Comforter Brush', cursive;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 65px;
@@ -195,7 +197,7 @@ h1 {
 	}
 
 	h1 {
-		font-size: 40px;
+		font-size: 50px;
 		font-family: 'Comforter Brush';
 		font-weight: 400;
 		margin-bottom: 20px;
@@ -217,7 +219,7 @@ h1 {
 	.circle {
 		position: absolute;
 		top: 100px;
-		left: 290px;
+		left: 310px;
 		width: 40px;
 	}
 
