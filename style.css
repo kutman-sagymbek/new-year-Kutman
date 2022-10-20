@@ -179,7 +179,6 @@ h1 {
 
 @media (max-width: 500px) {
 	.congratulation-text {
-		margin: 40px 10px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -187,6 +186,10 @@ h1 {
 	}
 
 	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		position: relative;
 	}
@@ -198,13 +201,8 @@ h1 {
 		margin-bottom: 20px;
 	}
 	.text {
-		font-size: 19px;
-		padding: 10px 10px 40px 10px;
-	}
-
-	.end-of-text {
-		font-size: 12px;
-		margin-bottom: 40px;
+		font-size: 15px;
+		padding: 10px 10px 20px 10px;
 	}
 
 	.top-left {
@@ -219,15 +217,15 @@ h1 {
 	.circle {
 		position: absolute;
 		top: 100px;
-		left: 340px;
-		width: 50px;
+		left: 290px;
+		width: 40px;
 	}
 
 	.on-melody {
 		font-weight: 200;
-		font-size: 15px;
+		font-size: 12px;
 		top: 55px;
-		left: 345px;*/
+		left: 285px;*/
 	}
 
 	.top-right {
@@ -242,15 +240,14 @@ h1 {
 	}
 
 	.end-of-text {
-		font-size: 25px;
-		margin-top: 0;
+		font-size: 15px;
+		margin-bottom: 20;
 	}
 
 	.megacom {
-		margin-top: 40px;
-		margin-bottom: -200px;
-		width: 130px;
-		/*height: 70px;*/
+		margin-top: 20px;
+		margin-bottom: -90px;
+		width: 100px;
 	}
 }
 
