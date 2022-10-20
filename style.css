@@ -177,7 +177,7 @@ h1 {
 	}
 }
 
-@media (max-width: 530px) {
+@media (max-width: 500px) {
 	.congratulation-text {
 		margin: 40px 10px;
 		display: flex;
@@ -192,22 +192,24 @@ h1 {
 	}
 
 	h1 {
-		font-size: 50px;
+		font-size: 40px;
 		font-family: 'Comforter Brush';
 		font-weight: 400;
 		margin-bottom: 20px;
 	}
 	.text {
-		font-size: 22px;
-		padding: 10px 20px 10px 20px;
+		font-size: 19px;
+		padding: 10px 10px 40px 10px;
 	}
 
 	.end-of-text {
 		font-size: 12px;
+		margin-bottom: 40px;
 	}
 
 	.top-left {
-		width: 120px;
+		width: 100px;
+		top: 10px;
 	}
 
 	.bottom-left {
@@ -215,21 +217,17 @@ h1 {
 	}
 
 	.circle {
-		display: none;
-		/*top: 100px;
-		right: 35px;
-		left: 570px;
-		width: 50px;*/
+		position: absolute;
+		top: 100px;
+		left: 340px;
+		width: 50px;
 	}
 
 	.on-melody {
-		display: none;
-		/*display: block;
 		font-weight: 200;
 		font-size: 15px;
-		top: 35px;
-		right: 25px;
-		left: 570px;*/
+		top: 55px;
+		left: 345px;*/
 	}
 
 	.top-right {
@@ -237,9 +235,10 @@ h1 {
 	}
 
 	.center {
-		position: absolute;
+		/*position: absolute;
 		bottom: 40px;
-		left: 380px;
+		left: 380px;*/
+		display: none;
 	}
 
 	.end-of-text {
