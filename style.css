@@ -53,8 +53,8 @@ body {
 
 .center {
 	position: absolute;
-	bottom: 60px;
-	right: 520px;
+	bottom: 70px;
+	right: 420px;
 }
 
 
@@ -74,10 +74,11 @@ h1 {
 	letter-spacing: 1px;
 	opacity: 0.8;
 	color: #F0FFF0;
-	padding: 0 430px;
+	padding: 0 230px;
 }
 
 .end-of-text {
+	margin-top: 30px;
 	font-weight: 300;
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
@@ -98,6 +99,11 @@ h1 {
 }
 
 
+.megacom {
+	margin-top: 40px;
+}
+
+
 @media (max-width: 768px) {
 	.congratulation-text {
 		padding: 20px;
@@ -108,7 +114,7 @@ h1 {
 	}
 
 	h1 {
-		font-size: 60px;
+		font-size: 30px;
 		font-family: 'Comforter Brush';
 		font-weight: 400;
 	}
